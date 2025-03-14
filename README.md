@@ -1,14 +1,18 @@
 # /simulanics/XojoScript
 
+This is the very first cross-platform Compiler and VM written by AI and an Agent Team, under direction of Matthew A Combatti. An AI powered plugin creator app is in the works for other developers to rapidly generate plugins for themselves and the community, using natural language. Plugins are currently under development to bring native AI and machine learning to open source XojoScript. Huggingface models, Ollama, and commercial models will also be easily accessible. 🤗
+
+# What is Open Source XojoScript?
+
 An open-source XojoScript compiler and virtual machine for the Xojo language. Compile and Run XojoScript at native C++ machine-code speed, on any system or architecture supporting C++ compilers [GNU/GCC/G++/clang]. This includes 99.9% of devices - even the web [using emscripten]! 🙏
 
 # XojoScript Bytecode Compiler and Virtual Machine 🚀
 
-Welcome to the **XojoScript Bytecode Compiler and Virtual Machine**! This project is a bytecode compiler and virtual machine written in C++ that handles XojoScript execution—including functions, classes, and more - entirely cross-platform. It compiles XojoScript into bytecode and executes it on a cross-platform custom virtual machine. 🤯
+Welcome to the **XojoScript Bytecode Compiler and Virtual Machine**! This project is a bytecode compiler and virtual machine written in C++ that handles XojoScript execution—including functions, classes, and more - entirely cross-platform. It compiles XojoScript into bytecode and executes it on a cross-platform custom virtual machine like C#'s design, and is memory-safe like Go and Rust. 🤯
 
 ## Features ✨
 
-- **Cross-platform Plugin Support:** Compile and place plugins in a "libs" directory located beside the xojoscript executable. Plugins will automatically be found, loaded, and ready for use in your xojoscripts.
+- **Cross-platform Plugin Support:** Compile and place plugins in a "libs" directory located beside the xojoscript executable. Plugins will automatically be found, loaded, and ready for use in your xojoscript programs.
 - **Cross-platform Library Support:** Load system-level APIs using 'Declare' and use them as you would in Xojo.
 - **Function Support:** Compile and execute user-defined functions and built-in ones. Overloading of functions is permitted.
 - **Module Support:** Create XojoScript Modules. ("extends" is in the works).
